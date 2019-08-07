@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>canvas 涂鸦</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+  <div id="container">
+    <img src="test.jpeg" id="previewImg">
+    <div style="display: none;" id="imageEdit">
+      <div class="color-tool">
+        <i id="color"></i><i class="col-deco"></i>
+        <div id="colorList"></div>
+      </div>
+      <div class="text-tool">
+        <input placeholder="请输入文字" id="text">
+        <span id="addText">添加</span>
+      </div>
+      <div class="opra-tool">
+        橡皮<input id="eraser" class="switch" type="checkbox">
+        <span class="opra disable" id="undo">撤销</span>
+        <span class="opra disable" id="redo">恢复</span>
+        <span id="finish">完成</span>
+      </div>
+    </div>
+    <div id="editBtn">编辑</div>
+  </div>
+  <script src="lib/doodle.js"></script>
+  <script src="index.js"></script>
+</body>
+
+</html>
