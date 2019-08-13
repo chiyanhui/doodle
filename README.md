@@ -1,4 +1,4 @@
-# pastec-demo
+# doodle
 
 JavaScript canvas 涂鸦
 
