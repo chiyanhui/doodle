@@ -47,7 +47,7 @@ editBtn.addEventListener('click', function () {
 });
 
 function onTextFinish(reason) {
-  if (reason === 'CLICK' || reason === 'UNDO') {
+  if (reason === 'CLICK' || reason === 'UNDO' || reason === 'DELETE') {
     this.drawMode();
   }
 }
